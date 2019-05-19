@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Exe2_Sensor</string>
+    <string name="title">Game Bầu Cua</string>
+    <string name="start">Start</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="choi">Chơi</string>
+    <string name="lac">Lắc để nhận xu</string>
+    <string name="game">Game Bầu Cua</string>
+    <string name="lethanhhung">Lê Thành Hưng</string>
+    <string name="truong">Trường Cao đẩng Công nghệ Thủ Đức</string>
+    <string name="mon">Lập trình di động 2 - Exe2 - Exe3</string>
+    <string-array name="tiencuoc">
+        <item>0</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+    </string-array>
+</resources>

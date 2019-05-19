@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SO SÁNH</string>
+    <string name="Tieude">SO SÁNH 2 SỐ</string>
+    <string name="soA">Số A</string>
+    <string name="soB">Số B</string>
+    <string name="lon"> Lớn hơn </string>
+    <string name="nho"> Nhỏ hơn </string>
+    <string name="bang"> Bằng nhau </string>
+</resources>

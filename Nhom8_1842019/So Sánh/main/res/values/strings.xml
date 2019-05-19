@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">dem</string>
+    <string name="Tieude">Thực Hiện Phép Tính</string>
+    <string name="soA">Số A</string>
+    <string name="soB">Số B</string>
+    <string name="cong">CỘNG</string>
+    <string name="tru">TRỪ</string>
+    <string name="nhan">NHÂN</string>
+    <string name="chia">CHIA</string>
+    <string name="kq">Kết quả</string>
+</resources>

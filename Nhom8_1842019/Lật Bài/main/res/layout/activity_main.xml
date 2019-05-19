@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:src="@drawable/matsau" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:src="@drawable/matsau"/>
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:src="@drawable/matsau"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnChoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHƠI"
+        android:background="@color/vang"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/btnCL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHƠI LẠI"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/tvDiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Điểm của bạn: "
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:textSize="32dp"/>
+</LinearLayout>

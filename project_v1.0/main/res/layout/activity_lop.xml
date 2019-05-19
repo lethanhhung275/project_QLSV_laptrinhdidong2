@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.49"
+        android:gravity="center"
+        android:text="DANH SÁCH LỚP"
+        android:textColor="#ff0048"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="383dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.83"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="DCT14"
+                android:textSize="0dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="DSA14"
+                android:textSize="0dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="DCK14"
+                android:textSize="0dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="DSN14"
+                android:textSize="0dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="DSV14"
+                android:textSize="0dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="DTA14"
+                android:textSize="0dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="DSI14"
+                android:textSize="0dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="DKT14"
+                android:textSize="0dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="286dp"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:text="DCT14" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="286dp"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:text="DSA14" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="286dp"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:text="DCK14" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="286dp"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:text="DSN14" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="286dp"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:text="DSV14" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="286dp"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:text="DTA14" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="286dp"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:text="DSI14" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="286dp"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:text="DKT14" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#86defc"
+    tools:context="com.huusoat.qlsv.LoginActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/txtDN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textColor="#ff003b"
+        android:textStyle="bold"
+        android:text="ĐĂNG NHẬP"
+        />
+
+    <EditText
+        android:id="@+id/edtTK"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+       android:hint="Tài Khoản"
+        android:layout_weight="0.13" />
+
+    <EditText
+        android:id="@+id/edtMK"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Mật Khẩu"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.08">
+
+        <Button
+            android:id="@+id/btnHuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.06"
+            android:textStyle="bold"
+            android:text="Thoát" />
+
+        <Button
+            android:id="@+id/btnDN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:text="Đăng Nhập" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

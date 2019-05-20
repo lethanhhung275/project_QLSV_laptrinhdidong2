@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backlogin"
+    android:orientation="vertical"
+    tools:context=".AddKhoaActivity">
+
+    <TextView
+        style="@style/Tieude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/themkhoa" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textMaKhoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:hintTextAppearance="@style/HintText">
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/makhoa"
+                android:singleLine="true"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textTenKhoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextAppearance="@style/HintText">
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tenkhoa"
+                android:singleLine="true"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnHuyKhoa"
+                style="@style/nut"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="70dp"
+                android:text="@string/huy" />
+
+            <Button
+                android:id="@+id/btnThemKhoa"
+                style="@style/nut"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/add" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

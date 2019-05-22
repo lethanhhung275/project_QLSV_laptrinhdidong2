@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Project_Nhom8</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="thoat">Thoát</string>
+    <string name="nhaptk">Nhập tài khoản</string>
+    <string name="nhapmk">Nhập mật khẩu</string>
+    <string name="nhom">Nhóm 8</string>
+    <string name="project">projectltdd.tdc.edu.vn</string>
+    <string name="title_activity_sinh_vien">SinhVienActivity</string>
+    <string name="dssv">DANH SÁCH SINH VIÊN</string>
+    <string name="dsk">DANH SÁCH KHOA</string>
+    <string name="dsN">DANH SÁCH NOTE</string>
+    <string name="ma">Nhập Mã SV</string>
+    <string name="ten">Nhập Tên SV</string>
+    <string name="makhoa">Nhập Mã Khoa</string>
+    <string name="tenkhoa">Nhập Tên Khoa</string>
+    <string name="ndnote">Nhập nội dung note</string>
+    <string name="gt">Giới tính:</string>
+    <string name="ngaysinh">Ngày sinh:</string>
+    <string name="diachi">Nhập địa chỉ</string>
+    <string name="khoa">Khoa:</string>
+    <string name="khoahoc">Khóa:</string>
+    <string name="bacdt">Bậc ĐT:</string>
+    <string name="sdt">Số điện thoại</string>
+    <string name="email">Email</string>
+    <string name="title_activity_khoa">KhoaActivity</string>
+    <string name="themsinhvien">THÊM SINH VIÊN</string>
+    <string name="suasinhvien">UPDATE SINH VIÊN</string>
+    <string name="themkhoa">THÊM KHOA</string>
+    <string name="themnote">THÊM NOTE</string>
+    <string name="suakhoa">UPDATE KHOA</string>
+    <string name="thongtinchitiet">THÔNG TIN CHI TIẾT</string>
+    <string name="nam">Nam</string>
+    <string name="nu">Nữ</string>
+    <string name="huy">Hủy</string>
+    <string name="add">Thêm</string>
+    <string name="luu">Lưu</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_tim_kiem">TimKiemActivity</string>
+    <string name="timkiem">TÌM KIẾM</string>
+    <string name="ma1">Mã SV:</string>
+    <string name="ten1">Tên SV:</string>
+    <string name="diachi1">Địa chỉ:</string>
+    <string name="sdt1">Số điện thoại:</string>
+    <string name="email1">Email:</string>
+    <string-array name="bacdaotao">
+        <item>Trung Cấp</item>
+        <item>Cao Đẳng</item>
+        <item>Đại Học</item>
+    </string-array>
+    <string name="title_activity_chi_tiet_sv">ChiTietSVActivity</string>
+    <string name="title_activity_note">NoteActivity</string>
+</resources>

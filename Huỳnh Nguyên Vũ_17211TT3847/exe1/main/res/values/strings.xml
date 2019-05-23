@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">dem</string>
+    <string name="Tieude">QLSV</string>
+    <string name="ten">Name</string>
+    <string name="mssv">MSSV</string>
+    <string name="them">THÊM</string>
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+    <string name="reset">RESET</string>
+    <string name="kq">Kết quả</string>
+</resources>

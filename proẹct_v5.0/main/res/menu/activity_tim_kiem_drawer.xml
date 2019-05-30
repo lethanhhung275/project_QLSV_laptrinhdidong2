@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trangchu"
+            android:icon="@drawable/ic_domain_black_24dp"
+            android:title="Trang Chủ" />
+            android:title="Khoa" />
+        <item
+            android:id="@+id/nav_timkiemMaSV"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Tìm Kiếm Theo Mã SV" />
+        <item
+            android:id="@+id/nav_timkiemKhoa"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Tìm Kiếm Theo Khoa" />
+    </group>
+
+</menu>

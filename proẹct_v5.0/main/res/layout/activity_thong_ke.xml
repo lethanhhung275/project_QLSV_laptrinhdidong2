@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backlogin"
+    tools:context=".ThongKeActivity">
+
+    <TextView
+        style="@style/Tieude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="@string/thongke"
+        android:layout_marginBottom="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            style="@style/textView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tongsokhoa"/>
+
+        <TextView
+            android:id="@+id/tvTongKhoa"
+            style="@style/textView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/ibTongKhoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_forward_black_24dp"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            style="@style/textView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tongsosv"/>
+
+        <TextView
+            android:id="@+id/tvTongSV"
+            style="@style/textView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/ibTongSV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_forward_black_24dp"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
